@@ -1,0 +1,52 @@
+server:
+  port: 8082
+
+
+spring:
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: mysecretpassword
+
+  data:
+    redis:
+      host: 127.0.0.1
+      database: 0
+      timeout: 3s
+      port: 6379
+
+#      datasource:
+#        url: jdbc:postgresql://localhost:15432/shop
+#        driver-class-name: org.postgresql.Driver
+#        username: postgres
+#        password: mysecretpassword
+#
+#      data:
+#        redis:
+#          host: localhost
+#          database: 0
+#          timeout: 3s
+#          port: 16379
+
+mail:
+  host: smtp.qq.com
+  port: 587
+  username: 1597694550@qq.com
+  password: bcovqnlavnuqjgbd
+  auth: true
+  enable: true
+
+
+jwt:
+  jwtKey: 9F2AbiGWFGIJ1ZA9D6hopc1cKs7wkvkyU/TnXCZ9naU=
+  jwtExpired: 360000
+
+  
+
+
