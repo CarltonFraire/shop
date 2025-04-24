@@ -37,8 +37,8 @@ spring:
 mail:
   host: smtp.qq.com
   port: 587
-  username: 1597694550@qq.com
-  password: bcovqnlavnuqjgbd
+  username: xxx@xxx.com
+  password: xxxxxxx
   auth: true
   enable: true
 
